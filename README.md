@@ -205,7 +205,7 @@ The active map pool is defined in **one place** and flows through the entire sta
 
 ```python
 # pipeline/scraper.py  ← edit this when Valve rotates a map
-ACTIVE_MAPS = ["Dust2", "Mirage", "Inferno", "Nuke", "Ancient", "Anubis", "Train"]
+ACTIVE_MAPS = ["Mirage", "Dust2", "Nuke", "Overpass", "Anubis", "Ancient", "Inferno"]
 ```
 
 After changing it, run `python pipeline/run.py fetch+train`. The Rust app reads the pool from `data/cache/teams.json` on startup — no recompile needed.

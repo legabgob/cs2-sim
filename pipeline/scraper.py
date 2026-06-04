@@ -34,7 +34,7 @@ _NAME_ALIASES: dict[str, str] = {
 # Current CS2 competitive map pool.  Update this list whenever Valve rotates a map;
 # the value is written to data/cache/teams.json on every fetch so the Rust GUI
 # picks it up automatically without a recompile.
-ACTIVE_MAPS = ["Dust2", "Mirage", "Inferno", "Nuke", "Ancient", "Anubis", "Train"]
+ACTIVE_MAPS = ["Mirage", "Dust2", "Nuke", "Overpass", "Anubis", "Ancient", "Inferno"]
 
 # Top-30 CS2 team data — 2025 standings
 _SYNTHETIC_TEAMS = [

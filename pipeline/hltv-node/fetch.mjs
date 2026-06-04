@@ -29,7 +29,7 @@ const TEAM_COUNT = (() => {
 
 // Current CS2 active map pool — used to filter HLTV map stats (drops Overpass, Vertigo, etc.)
 const ACTIVE_MAPS = new Set([
-  'Dust2', 'Mirage', 'Inferno', 'Nuke', 'Ancient', 'Anubis', 'Train',
+  'Mirage', 'Dust2', 'Nuke', 'Overpass', 'Anubis', 'Ancient', 'Inferno',
 ]);
 
 // Base delay between requests. Cloudflare starts rate-limiting below ~1.5 s.

@@ -4,7 +4,7 @@ use serde::{Deserialize, Serialize};
 // ── Map constants ─────────────────────────────────────────────────────────────
 
 pub const ACTIVE_MAPS: &[&str] = &[
-    "Dust2", "Mirage", "Inferno", "Nuke", "Ancient", "Anubis", "Train",
+    "Mirage", "Dust2", "Nuke", "Overpass", "Anubis", "Ancient", "Inferno",
 ];
 
 // ── Stand-in substitution ─────────────────────────────────────────────────────
