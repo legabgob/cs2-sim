@@ -1,0 +1,13 @@
+{
+  "_doc": "Manual overrides — merged on top of live data every fetch run. Team names must match exactly what appears in the GUI.",
+  "teams": {
+    "_doc": "Override per-team statistics. Keys are team names (case-sensitive)."
+  },
+  "players": {
+    "_doc": "Override player rosters. Each key is a team name; value is a list of {name, rating, kd, adr, kast, od_success}. Replaces the entire roster for that team. Use the GUI editor (✏ Edit Data) to populate this."
+  },
+  "results": {
+    "_doc": "Extra match results for model training. Format: {team_a, team_b, winner, map (optional)}.",
+    "matches": []
+  }
+}

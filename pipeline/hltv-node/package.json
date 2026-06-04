@@ -1,0 +1,12 @@
+{
+  "name": "hltv-fetch",
+  "version": "1.0.0",
+  "description": "Thin wrapper around gigobyte/HLTV to export ranking + results as JSON.",
+  "type": "module",
+  "scripts": {
+    "fetch": "node fetch.mjs"
+  },
+  "dependencies": {
+    "hltv": "^3.5.0"
+  }
+}

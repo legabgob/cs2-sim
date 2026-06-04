@@ -1,0 +1,36 @@
+# ── Rust ─────────────────────────────────────────────────────────────────────
+/target/
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+*.egg-info/
+dist/
+build/
+
+# ── Node.js ──────────────────────────────────────────────────────────────────
+pipeline/hltv-node/node_modules/
+
+# ── Generated data / model artefacts ─────────────────────────────────────────
+# Rebuilt by the pipeline — not source-controlled.
+data/cache/
+data/*.onnx
+data/feature_schema.json
+
+# API tokens — never commit.
+data/pandascore_token.txt
+
+# User-created custom format presets (auto-saved by GUI).
+data/custom_format.json
+
+# ── IDE / OS ──────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

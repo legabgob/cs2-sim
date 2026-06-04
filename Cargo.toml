@@ -1,0 +1,27 @@
+[package]
+name = "cs2-sim"
+version = "0.1.0"
+edition = "2021"
+description = "CS2 Professional Tournament Simulator"
+
+[[bin]]
+name = "cs2-sim"
+path = "src/main.rs"
+
+[dependencies]
+eframe = { version = "0.28", features = ["default"] }
+egui = "0.28"
+egui_plot = "0.28"
+# ort default features include: ndarray, download-binaries, copy-dylibs
+ort = "2.0.0-rc.9"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+csv = "1"
+rayon = "1"
+rand = { version = "0.8", features = ["small_rng"] }
+chrono = { version = "0.4", features = ["serde"] }
+anyhow = "1"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
