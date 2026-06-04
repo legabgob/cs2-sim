@@ -77,7 +77,7 @@ In the **Roster** panel you can replace any player slot with a stand-in for the 
 ### 1. Clone
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/cs2-sim.git
+git clone https://github.com/legabgob/cs2-sim.git
 cd cs2-sim
 ```
 
